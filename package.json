@@ -1,28 +1,28 @@
 {
   "name": "crud-em-memoria",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "type": "module",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fricksju/crud-em-memoria.git"
+    "url": "git+https://github.com/Augusto-Filipiak/Crud-em-memoria.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "module",
   "bugs": {
-    "url": "https://github.com/fricksju/crud-em-memoria/issues"
+    "url": "https://github.com/Augusto-Filipiak/Crud-em-memoria/issues"
   },
-  "homepage": "https://github.com/fricksju/crud-em-memoria#readme",
-  "description": "",
+  "homepage": "https://github.com/Augusto-Filipiak/Crud-em-memoria#readme",
   "dependencies": {
-    "@prisma/client": "^6.16.0",
     "express": "^5.1.0"
   },
   "devDependencies": {
+    "@prisma/client": "^6.16.0",
     "prisma": "^6.16.0"
   }
 }

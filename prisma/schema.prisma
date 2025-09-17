@@ -13,11 +13,10 @@ datasource db {
   url      = "file:./meu_banco.db"
 }
 
-model Users{
-  id Int @id @default(autoincrement()) 
+model users {
+  id Int @id @default(autoincrement())
   nome String
-  email String 
-  idade Int? 
+  idade Int?
+  email String @unique
 }
-  
 

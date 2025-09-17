@@ -1,5 +1,5 @@
 import express from "express";
-import roteadorUsers from "./users/rotas/rota-usuarios.js";
+import roteadorUsers from "./rotas/rota-usuarios.js";
 
 const app = express();
 app.use(express.json());

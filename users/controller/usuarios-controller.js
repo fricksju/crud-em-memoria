@@ -32,7 +32,7 @@ import { PrismaClient } from "@prisma/client";
 
     async function deletarUsuario(req, res) {
         const id = parseInt(req.params.id);
-        
+
         if (isNaN(id)) {
         return res
             .status(400)
@@ -41,11 +41,9 @@ import { PrismaClient } from "@prisma/client";
 
         const deletarUser = await prisma.users.delete({
             where: {
-                id: id
+                id: id 
             }
         })
-
-    
         res.status(204).send(deletarUser);
     }
 
